@@ -10,7 +10,8 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".FirstActivity"
-            android:screenOrientation="landscape">
+            android:screenOrientation="landscape"
+            android:noHistory="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -18,7 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".SecondActivity"
-            android:screenOrientation="landscape" />
+            android:screenOrientation="landscape"
+            android:noHistory="true" />
     </application>
 
 </manifest>
